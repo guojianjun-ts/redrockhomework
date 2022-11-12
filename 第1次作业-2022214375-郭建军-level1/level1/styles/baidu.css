@@ -1,0 +1,229 @@
+*{
+    padding:0;margin:0;
+    color: #222;
+}
+a{
+    text-decoration: none;
+    padding-left: 12px; 
+}
+a:hover{
+    color:#4e71f2;
+}
+li{
+    list-style: none;
+}
+.header{
+    height: 60px;
+    line-height:60px;
+    text-align: center;
+}
+.header .left{
+    float:left;
+}
+.header .right{
+    position:absolute;
+    right:0px;
+    top:0px;
+    z-index:100;
+    padding-right:24px;
+    float:right;
+
+}
+.header .li_1{
+    float:left;
+    font:13px/23px Arial,sans-serif;
+    color:#222;
+    position:relative;
+    margin-right:31px;margin-top:19px;display:inline-block;
+
+}
+.right #more_li{
+    color:#222;
+    position:relative;
+    margin-right:35px;
+    display:inline-block;
+    font-size:14px;
+}
+.header .right .r_btn1{
+    display:inline-block;
+    vertical-align:top;cursor:pointer;
+}
+
+.right #more_menu{
+    display:none;
+    position:absolute;
+    top:28px;
+    left:-14px;
+    width:85px;
+    height:165px;
+    line-height: 22px;
+    text-align: left;
+    box-shadow:0 2px 10px 0 rgba(0,0,0,.15);
+    border-radius: 6px;
+    margin-top:15px;
+}
+.right #more_menu li{margin-top:9px;}
+#more_li:hover #more_menu{display:block;}
+.header .right .r_btn2{
+    display:inline-block;
+    margin-top:19px;
+    background-color: #4e71f2;
+    padding-left:2px;
+    font-size:14px;
+    height:24px;
+    width:48px;
+    color:#fff;
+    line-height: 24px;
+    border-radius: 6px;
+
+}
+
+#more_wrap{
+    position:relative;
+    display:block;
+}
+#more_box{
+    display:none;
+    position:absolute;
+    right:-12px;
+    top:30px;
+    width: 300px;
+    height: 223px;
+    line-height:15px;
+    text-align: center;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    border-radius:12px ;
+    background-color: #fff;
+    /*box-shadow: 10 10;*/
+}
+#more_box li{margin-left:18px;}
+#more_list:hover #more_box{
+    display:block;
+}
+#more_box img {
+    height: 42px;
+    width: 42px;
+    border:1px solid rgba(0,0,0,.03);
+    border-radius: 12px;
+}
+.tag_more{
+    width: 42px;
+    text-align: center;
+}
+.more_li{
+    float:left;
+    line-height:24px;
+    margin-left:12px;
+    margin-right:12px;
+    margin-top:16px;
+
+}
+.main{
+    clear:both;
+
+}
+#lg{
+    position:absolute;
+    left:50%;
+    top:45px;
+    margin-left:-135px;
+    width: 270px;
+    height: 129px;
+}
+.search_l{
+    position:absolute;
+    left:525px;
+    top:185px;
+    font-size:16px;
+    width: 546px;
+    height: 40px;
+    vertical-align: top;
+    border:2px solid #c4c7ce;
+    border-radius:10px 0 0 10px;
+    background-color: #fff;
+    color:#222;
+    overflow: hidden;
+}
+.search_r {
+    position: absolute;
+    top:185px;
+    left:1073px;
+    cursor: pointer;
+    width: 100px;
+    height:44px;
+    line-height: 45px;
+    background-color: #4b6be7;
+    border-radius:0 10px 10px 0;
+    font-size:14px;
+    color:#fff;
+    text-align: center;
+}
+.main .search_r:hover{
+    background-color: #b1c0de;
+}
+.main input:hover{
+    border-color: #384d9c;
+}
+
+
+.main table{
+    margin:200px 610px;
+    width: 670px;
+    height: 180px;
+    font-size:15px;
+}
+.main #hhh{
+    padding-left:254px;
+    color:#a6a9b4;
+}
+._new{
+    display: inline-block;
+    background-color: #ff455b;
+    width: 14px;
+    height: 19px;
+    color:#fff;
+    padding:0 2px;
+    border-radius: 5px;
+}
+._zhenjing{
+    display: inline-block;
+    background-color: #ff9812;
+    width: 14px;
+    height: 19px;
+    color:#fff;
+    padding:0 2px;
+    border-radius: 5px;
+}
+._hot{
+    display: inline-block;
+    background-color: #ff9812;
+    width: 14px;
+    height: 19px;
+    color:#fff;
+    padding:0 2px;
+    border-radius: 5px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    position:fixed;
+    bottom:0;
+    background-color: #fbfbfb;
+    line-height: 40px;
+    font-size:12px;
+}
+.footer_l li a{
+    float:left;
+    padding-left:14px;
+    color:#9195a3;
+}
+.footer_l li a:hover{
+    color:#222;
+}
+.footer_r li a{
+    float:right;
+    font-size:16px;
+    padding-right:15px;
+
+}
+
